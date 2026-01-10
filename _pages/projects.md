@@ -1,58 +1,24 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
-nav: false
+nav: True
 nav_order: 2
-display_categories: [work, fun]
-horizontal: false
 ---
 
-<!-- pages/projects.md -->
-<div class="projects">
-{%- if site.enable_project_categories and page.display_categories %}
-  <!-- Display categorized projects -->
-  {%- for category in page.display_categories %}
-  <h2 class="category">{{ category }}</h2>
-  {%- assign categorized_projects = site.projects | where: "category", category -%}
-  {%- assign sorted_projects = categorized_projects | sort: "importance" %}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-  {% endfor %}
+- **Transformers’ Reliability for Safety-Critical Applications on Graphic Processing Units (TCHE)**
+  - **My role**: Principal investigator
+  - [Project website](https://team.inria.fr/tche/)
 
-{%- else -%}
-<!-- Display projects without categories -->
-  {%- assign sorted_projects = site.projects | sort: "importance" -%}
-  <!-- Generate cards for each project -->
-  {% if page.horizontal -%}
-  <div class="container">
-    <div class="row row-cols-2">
-    {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
-    {%- endfor %}
-    </div>
-  </div>
-  {%- else -%}
-  <div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
-    {%- endfor %}
-  </div>
-  {%- endif -%}
-{%- endif -%}
-</div>
+- **REliable hardware for TRUSTworthy artificial INtelliGence (RE-TRUSTING)**
+  - **My role**: Participating in the project
+  - [Project website](https://inl.cnrs.fr/projects/re-trusting/)
+
+- **FAult-aware timing behaviour for safety-critical multicore SYstems (FASY)**
+  - **My role**: Participating in the project
+  - [Project website](https://project.inria.fr/fasy/)
+
+- **ARCHitectures based on unconventional accelerators for dependable/energY efficienT AI Systems (ARCHYTAS)**
+  - **My role**: Participating in the project
+  - [Project website](https://defence-industry-space.ec.europa.eu/document/download/9ea71b6f-afea-4cd9-bc2d-210d83e18220_en?filename=EDF-2023-RA-DIGIT-HAAI%20ARCHYTAS.pdf)
+

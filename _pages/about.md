@@ -13,9 +13,9 @@ profile:
     <p>Campus de Beaulieu 263 Av. Général Leclerc</p>
     <p>Rennes, France</p>
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
@@ -34,11 +34,7 @@ in the MSCA-BIENVENÜE Postdoctoral Program in the INRIA TARAN team. Throughout 
 I have focused on understanding the impact of radiation on devices used in large-scale HPC centers 
 and safety-critical applications.
 
-Currently, I'm a researcher at INRIA Rennes in the
-[Taran Group](https://team.inria.fr/taran/), where I explore the
-fault tolerance and reliability aspects of RISCV and Deep Neural Networks accelerators.
-This exciting work allows me to contribute to advancing these emerging technologies and
-their applications across various domains. I am eager to share my journey, insights,
-ongoing projects, and research publications with you through this personal website.
-Stay tuned for updates and collaborations as we collectively push the boundaries of
-knowledge in computer science, shaping more reliable and efficient computing systems.
+Currently, I'm a permanent researcher at INRIA Rennes in the
+[Taran Group](https://team.inria.fr/taran/). 
+My main topics of research are fault tolerance and reliability aspects of RISC-V and AI accelerators.
+
