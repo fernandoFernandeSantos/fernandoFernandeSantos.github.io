@@ -3,7 +3,7 @@ layout: page
 permalink: /repositories/
 title: Repositories
 description: Repositories I maintain/collaborate to support my research activities.
-nav: true
+nav: false
 nav_order: 5
 ---
 

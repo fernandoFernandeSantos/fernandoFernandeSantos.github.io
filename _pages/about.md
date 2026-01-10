@@ -35,6 +35,6 @@ I have focused on understanding the impact of radiation on devices used in large
 and safety-critical applications.
 
 Currently, I'm a permanent researcher at INRIA Rennes in the
-[Taran Group](https://team.inria.fr/taran/). 
+[Taran Team](https://team.inria.fr/taran/). 
 My main topics of research are fault tolerance and reliability aspects of RISC-V and AI accelerators.
 
