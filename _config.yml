@@ -404,7 +404,7 @@ medium_zoom:
 steps:
   - uses: actions/checkout@v4        # latest checkout
   - uses: actions/configure-pages@v5 # updated Pages setup
-  - uses: actions/upload-pages-artifact@v3
+  - uses: actions/upload-pages-artifact@v4
     with:
       path: ./_site                  # your build output
   - uses: actions/deploy-pages@v4    # deploy step
