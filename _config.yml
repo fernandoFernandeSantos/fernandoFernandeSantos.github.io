@@ -399,3 +399,12 @@ mdb:
 medium_zoom:
   version: "1.0.8"
   integrity: "sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8="
+
+
+steps:
+  - uses: actions/checkout@v4        # latest checkout
+  - uses: actions/configure-pages@v5 # updated Pages setup
+  - uses: actions/upload-pages-artifact@v3
+    with:
+      path: ./_site                  # your build output
+  - uses: actions/deploy-pages@v4    # deploy step
