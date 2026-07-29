@@ -38,6 +38,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
 
     
+    <!-- Sidebar Table of Contents -->
+    <link href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css" rel="stylesheet">
+    
 
     <!-- Styles -->
     
@@ -94,21 +97,6 @@
               
 
               <!-- Other pages -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/publications/">Publications</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/projects/">Projects</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/awards/">Awards</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/supervision/">Supervision</a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="/teaching/">Teaching</a>
-              </li>
 
               <!-- Toogle theme mode -->
               <li class="toggle-container">
@@ -134,13 +122,21 @@
     <!-- Content -->
     <div class="container mt-5">
       
-        <!-- about.html -->
+        
+        <div class="row">
+          <!-- sidebar, which will move to the top on a small screen -->
+          <div class="col-sm-3">
+            <nav id="toc-sidebar" class="sticky-top"></nav>
+          </div>
+          <!-- main content area -->
+          <div class="col-sm-9">
+            <!-- about.html -->
       <div class="post">
         <header class="post-header">
           <h1 class="post-title">
            <span class="font-weight-bold">Fernando</span>  Fernandes dos Santos
           </h1>
-          <p class="desc">Researcher at the TARAN Group, INRIA Rennes.</p>
+          <p class="desc">Researcher at the TARAN Team, IRISA/Inria Rennes.</p>
         </header>
 
         <article>
@@ -162,26 +158,281 @@
 
 </figure>
 
-            <div class="address">
-              <p>Campus de Beaulieu 263 Av. Général Leclerc</p> <p>Rennes, France</p>
-
-            </div>
           </div>
 
           <div class="clearfix">
             
-<p>I specialize in researching the reliability of parallel architectures, efficient hardening techniques, 
-and mitigating radiation-induced effects. I started my academic journey with a Bachelor’s in Computer Science 
-from the Western Paraná State University. I then pursued a Master’s and Ph.D. from the Federal University of 
-Rio Grande do Sul in Brazil. After completing my Ph.D., I moved to Rennes, France, to work as a postdoctoral researcher
-in the MSCA-BIENVENÜE Postdoctoral Program in the INRIA TARAN team. Throughout my academic career, 
-I have focused on understanding the impact of radiation on devices used in large-scale HPC centers 
-and safety-critical applications.</p>
-
-<p>Currently, I’m a permanent researcher at INRIA Rennes in the
+<p>I specialize in improving the reliability of parallel architectures through efficient hardening techniques and the mitigation of transient and permanent faults, particularly in devices used in large-scale HPC systems and safety-critical applications.
+I earned a bachelor’s degree in Computer Science from Western Paraná State University, followed by master’s and PhD degrees from the Federal University of Rio Grande do Sul, Brazil.
+After completing my PhD, I joined Inria’s TARAN team in Rennes, France, as a postdoctoral researcher in the MSCA-BIENVENÜE program.
+Currently, I’m a permanent researcher at Inria Rennes in the
 <a href="https://team.inria.fr/taran/" rel="external nofollow noopener" target="_blank">Taran Team</a>. 
-My main topics of research are fault tolerance and reliability aspects of RISC-V and AI accelerators.</p>
+My main topics of research are fault tolerance and reliability aspects of RISC-V, processing in memory, and AI accelerators.</p>
 
+<h2 id="publications">Publications</h2>
+
+<p>For a complete and up-to-date list of my publications, see my
+<a href="https://scholar.google.com/citations?user=2ue1d1MAAAAJ" rel="external nofollow noopener" target="_blank">Google Scholar profile</a>
+or my <a href="https://cv.hal.science/ffernand" rel="external nofollow noopener" target="_blank">HAL CV</a>.</p>
+
+<h2 id="supervision">Supervision</h2>
+<h3 id="phd-students">PhD students</h3>
+<ul>
+  <li>
+<strong>Lucas Roquet</strong>: Dependability of large machine-learning models on GPUs
+    <ul>
+      <li>
+<strong>Period</strong>: 2024–present</li>
+    </ul>
+  </li>
+  <li>
+<strong>Mario Wagner</strong>: Reliability of emerging machine-learning accelerators
+    <ul>
+      <li>
+<strong>Period</strong>: 2025–present</li>
+    </ul>
+  </li>
+  <li>Ioannis Zacharioudakis: Reliability and Protection Strategies for Neuromorphic Accelerators
+    <ul>
+      <li>
+<strong>Period</strong>: 2026–present</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="masters-students">Master’s students</h3>
+<ul>
+  <li>
+<strong>Maxwell Pirtle</strong>: Time predictability and Worst-Case Execution Time analysis on NVIDIA GPUs
+    <ul>
+      <li>
+<strong>Period</strong>: 2024–2026</li>
+    </ul>
+  </li>
+  <li>
+<strong>Mathys Minsac</strong>: Fault simulation and mitigation on Processing Using DRAM architectures
+    <ul>
+      <li>
+<strong>Period</strong>: 2025</li>
+    </ul>
+  </li>
+  <li>
+<strong>Mehdi</strong>: Reliability assessment of UPMEM Processing Near Memory accelerators
+    <ul>
+      <li>
+<strong>Period</strong>: 2024</li>
+    </ul>
+  </li>
+  <li>
+<strong>Lucas Roquet</strong>: Fault simulation, reliability, and security of Vision Transformers
+    <ul>
+      <li>
+<strong>Period</strong>: 2022–2023</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="undergraduate-students">Undergraduate students</h3>
+<ul>
+  <li>
+<strong>Senakpon V Jivana F Gnansounou</strong>: Reliability of Compressed DNNs for Microcontrollers
+    <ul>
+      <li>
+<strong>Period</strong>: 2026</li>
+    </ul>
+  </li>
+  <li>
+<strong>Remi Loison</strong>: Fault simulation on RISC-V processors
+    <ul>
+      <li>
+<strong>Period</strong>: 2025</li>
+    </ul>
+  </li>
+  <li>
+<strong>Raphael Dennis</strong>: Microarchitectural fault simulation for a commercial RISC-V processor
+    <ul>
+      <li>
+<strong>Period</strong>: 2024</li>
+    </ul>
+  </li>
+  <li>
+<strong>Leah</strong>: Fault simulation on CUDA-based applications
+    <ul>
+      <li>
+<strong>Period</strong>: 2024</li>
+    </ul>
+  </li>
+  <li>
+<strong>Melanie Romano</strong>: Reliability assessment of applications running on the GreenWaves GAP9 RISC-V processor
+    <ul>
+      <li>
+<strong>Period</strong>: 2023</li>
+    </ul>
+  </li>
+  <li>
+<strong>Geronimo Veit Acosta</strong>: Fault tolerance using reduced-precision duplication with comparison
+    <ul>
+      <li>
+<strong>Period</strong>: 2021</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="do-you-want-to-join">Do you want to join?</h3>
+
+<p>I am open to supervising new students who are <strong>motivated</strong>, <strong>eager to learn</strong>, and
+<strong>interested in computer architecture</strong>. If you fit this description, please feel free to contact me via email.
+The topics I am willing to explore include, but are not limited to, the following:</p>
+<ul>
+  <li>Reliability of parallel architectures: permanent, transient, and intermittent faults</li>
+  <li>Radiation-induced effects on computers: soft error rates, accumulated dose, etc.</li>
+  <li>Real-time applications: real-time GPUs, real-time constraints</li>
+  <li>Processing in memory: reliability and optimization</li>
+</ul>
+
+<h2 id="projects">Projects</h2>
+<ul>
+  <li>
+<strong>Reliable AI for the Next Generation of Safety- and Mission-Critical Embedded Systems (RAISE)</strong>
+    <ul>
+      <li>
+<strong>My role</strong>: Principal investigator</li>
+      <li><a href="https://project.inria.fr/raise/" rel="external nofollow noopener" target="_blank">Project website</a></li>
+    </ul>
+  </li>
+  <li>
+<strong>Transformers’ Reliability for Safety-Critical Applications on Graphic Processing Units (TCHE)</strong>
+    <ul>
+      <li>
+<strong>My role</strong>: Principal investigator</li>
+      <li><a href="https://team.inria.fr/tche/" rel="external nofollow noopener" target="_blank">Project website</a></li>
+    </ul>
+  </li>
+  <li>
+<strong>ARCHitectures based on unconventional accelerators for dependable/energY efficienT AI Systems (ARCHYTAS)</strong>
+    <ul>
+      <li>
+<strong>My role</strong>: Participating in the project</li>
+      <li><a href="https://defence-industry-space.ec.europa.eu/document/download/9ea71b6f-afea-4cd9-bc2d-210d83e18220_en?filename=EDF-2023-RA-DIGIT-HAAI%20ARCHYTAS.pdf" rel="external nofollow noopener" target="_blank">Project website</a></li>
+    </ul>
+  </li>
+  <li>
+<strong>REliable hardware for TRUSTworthy artificial INtelliGence (RE-TRUSTING)</strong>
+    <ul>
+      <li>
+<strong>My role</strong>: Participating in the project</li>
+      <li><a href="https://inl.cnrs.fr/projects/re-trusting/" rel="external nofollow noopener" target="_blank">Project website</a></li>
+    </ul>
+  </li>
+  <li>
+<strong>FAult-aware timing behaviour for safety-critical multicore SYstems (FASY)</strong>
+    <ul>
+      <li>
+<strong>My role</strong>: Participating in the project</li>
+      <li><a href="https://project.inria.fr/fasy/" rel="external nofollow noopener" target="_blank">Project website</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="teaching">Teaching</h2>
+
+<h3 id="2025">2025</h3>
+
+<ul>
+  <li>Introduction to C language and Unix (University of Rennes)</li>
+  <li>TinyML Accelerators in conjunction with Olivier S., Angeliki K., Marcello T.,
+and Romain F.
+    <ul>
+      <li>The materials of this class can be
+found at: <a href="https://gitlab.inria.fr/ffernand/tinyml-lectures" rel="external nofollow noopener" target="_blank">TinyML GitLab</a>
+</li>
+    </ul>
+  </li>
+  <li>Frugal AI Master Course (University of Rennes) in conjunction with Angeliki K. and Marcello T.
+    <ul>
+      <li>The materials of this course can be found at: <a href="https://gitlab.inria.fr/ffernand/frugalai" rel="external nofollow noopener" target="_blank">Frugal AI GitLab</a>
+</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="2024">2024</h3>
+
+<ul>
+  <li>Introduction to C language and Unix (University of Rennes)</li>
+  <li>TinyML Accelerators in conjunction with Olivier S., Angeliki K., Silviu F., Marcello T.,
+and El-mehdi L.
+    <ul>
+      <li>The materials of this class can be
+found at: <a href="https://gitlab.inria.fr/sfilip/tinyml2023_lectures" rel="external nofollow noopener" target="_blank">TinyML GitLab</a>
+</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="20202021">2020–2021</h3>
+
+<p><strong>Introduction to programming</strong>: C/Python for students in STEM courses at the Federal University of Rio Grande do Sul, Brazil.</p>
+
+<h2 id="awards">Awards</h2>
+
+<h3 id="2026">2026</h3>
+
+<ul>
+  <li><a href="/assets/pdf/distinguished_reviewers-santos.pdf">DSN’26 Distinguished Reviewer Award</a></li>
+</ul>
+
+<h3 id="2023">2023</h3>
+
+<ul>
+  <li>
+    <p>I am the semi-finals winner of the
+<a href="https://cas.polito.it/ETS23/proceedings/informal/S8C-1.pdf" rel="external nofollow noopener" target="_blank">McCluskey Doctoral Thesis Award</a> for my thesis titled
+<em>Understanding and Improving GPUs’ Reliability Combining Beam Experiments with Fault Simulation</em> at the IEEE European Test Symposium 2023.</p>
+  </li>
+  <li>
+    <p>I won the McCluskey Doctoral Thesis Award at the 2023 IEEE International Test Conference (ITC).</p>
+  </li>
+</ul>
+
+<h3 id="2022">2022</h3>
+
+<ul>
+  <li>Best 2021 Thesis on Computer Science of the whole Brazil by
+<a href="https://www.gov.br/capes/pt-br/assuntos/premios/premio-capes-de-tese/teses-premiadas/teses-premiadas-em-2022" rel="external nofollow noopener" target="_blank">Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) Award</a>.
+CAPES is the Brazilian government agency for research funding.</li>
+</ul>
+
+<h3 id="2021">2021</h3>
+
+<ul>
+  <li>
+    <p><a href="https://twitter.com/ieeensrec/status/1418203223316475904" rel="external nofollow noopener" target="_blank">Paul Phelps Continuing Education Grant</a>
+from the IEEE Nuclear
+and Plasma Sciences Society community, in the
+<a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9735186" rel="external nofollow noopener" target="_blank">2021 IEEE NSREC</a>.</p>
+  </li>
+  <li>
+    <p>My thesis was evaluated <em>Cum Laude</em> by a board of reviewers composed of Dr. Timothy Tsai (NVIDIA),
+Dr. Dimitris Gizopoulos (National and Kapodistrian University of Athens), and Dr. Evgenia Smirni
+(College of William &amp; Mary). The text of the thesis is available (English only) at this <a href="https://lume.ufrgs.br/bitstream/handle/10183/234971/001136966.pdf" rel="external nofollow noopener" target="_blank">link</a>.</p>
+  </li>
+</ul>
+
+<h3 id="2018">2018</h3>
+
+<ul>
+  <li>Best paper runner-up: In the 2018 IEEE/IFIP DSN, the paper <a href="https://ieeexplore.ieee.org/abstract/document/8416467" rel="external nofollow noopener" target="_blank">Code-Dependent and Architecture-Dependent Reliability Behaviors</a>
+co-authored by me was the runner-up for the best paper award.</li>
+  <li>Best of SELSE: In the 2018 edition of SELSE, the paper <a href="https://ieeexplore.ieee.org/abstract/document/8023727" rel="external nofollow noopener" target="_blank">Evaluation and Mitigation of Soft-Errors in Neural Network-Based Object Detection in Three GPU Architectures</a>
+co-authored by me won the best paper award.</li>
+</ul>
+
+<h3 id="2014">2014</h3>
+
+<ul>
+  <li>In my Bachelor’s in Computer Science, I graduated with honors. The Brazilian Computer Society also recognized me as the outstanding student of the year at UNIOESTE.</li>
+</ul>
 
           </div>
 
@@ -199,6 +450,9 @@ My main topics of research are fault tolerance and reliability aspects of RISC-V
 
 </div>
 
+          </div>
+        </div>
+        
       
     </div>
 
@@ -224,6 +478,9 @@ My main topics of research are fault tolerance and reliability aspects of RISC-V
   <!-- Medium Zoom JS -->
   <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
   <script defer src="/assets/js/zoom.js"></script>
+  <!-- Sidebar Table of Contents -->
+  <script defer src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
+
 
   <!-- Bootstrap Table -->
   <script defer src="https://unpkg.com/bootstrap-table@1.21.4/dist/bootstrap-table.min.js"></script>
