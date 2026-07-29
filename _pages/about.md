@@ -70,26 +70,20 @@ The topics I am willing to explore include, but are not limited to, the followin
 - Processing in memory: reliability and optimization
 
 ## Projects
-- **Reliable AI for the Next Generation of Safety- and Mission-Critical Embedded Systems (RAISE)**
+- **Reliable AI for the Next Generation of Safety- and Mission-Critical Embedded Systems (RAISE)**<a href="https://project.inria.fr/raise/" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
   - **My role**: Principal investigator
-  - [Project website](https://project.inria.fr/raise/)
 
-- **Transformers’ Reliability for Safety-Critical Applications on Graphic Processing Units (TCHE)**
+- **Transformers’ Reliability for Safety-Critical Applications on Graphic Processing Units (TCHE)**<a href="https://team.inria.fr/tche/" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
   - **My role**: Principal investigator
-  - [Project website](https://team.inria.fr/tche/)
 
-
-- **ARCHitectures based on unconventional accelerators for dependable/energY efficienT AI Systems (ARCHYTAS)**
+- **ARCHitectures based on unconventional accelerators for dependable/energY efficienT AI Systems (ARCHYTAS)**<a href="https://defence-industry-space.ec.europa.eu/document/download/9ea71b6f-afea-4cd9-bc2d-210d83e18220_en?filename=EDF-2023-RA-DIGIT-HAAI%20ARCHYTAS.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
   - **My role**: Participating in the project
-  - [Project website](https://defence-industry-space.ec.europa.eu/document/download/9ea71b6f-afea-4cd9-bc2d-210d83e18220_en?filename=EDF-2023-RA-DIGIT-HAAI%20ARCHYTAS.pdf)
 
-- **REliable hardware for TRUSTworthy artificial INtelliGence (RE-TRUSTING)**
+- **REliable hardware for TRUSTworthy artificial INtelliGence (RE-TRUSTING)**<a href="https://inl.cnrs.fr/projects/re-trusting/" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
   - **My role**: Participating in the project
-  - [Project website](https://inl.cnrs.fr/projects/re-trusting/)
 
-- **FAult-aware timing behaviour for safety-critical multicore SYstems (FASY)**
+- **FAult-aware timing behaviour for safety-critical multicore SYstems (FASY)**<a href="https://project.inria.fr/fasy/" target="_blank" rel="noopener noreferrer"><i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
   - **My role**: Participating in the project
-  - [Project website](https://project.inria.fr/fasy/)
 
 ## Teaching
 
