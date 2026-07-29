@@ -41,36 +41,23 @@ or my [HAL CV](https://cv.hal.science/ffernand).
 
 ## Supervision
 ### PhD students
-- **Lucas Roquet**: Dependability of large machine-learning models on GPUs
-  - **Period**: 2024–present
-- **Mario Wagner**: Reliability of emerging machine-learning accelerators
-  - **Period**: 2025–present
-- Ioannis Zacharioudakis: Reliability and Protection Strategies for Neuromorphic Accelerators
-  - **Period**: 2026–present
+- **Lucas Roquet (2024–present)**: Dependability of large machine-learning models on GPUs
+- **Mario Wagner (2025–present)**: Reliability of emerging machine-learning accelerators
+- **Ioannis Zacharioudakis (2026–present)**: Reliability and Protection Strategies for Neuromorphic Accelerators
 
 ### Master's students
-- **Maxwell Pirtle**: Time predictability and Worst-Case Execution Time analysis on NVIDIA GPUs
-  - **Period**: 2024–2026
-- **Mathys Minsac**: Fault simulation and mitigation on Processing Using DRAM architectures
-  - **Period**: 2025
-- **Mehdi**: Reliability assessment of UPMEM Processing Near Memory accelerators
-  - **Period**: 2024
-- **Lucas Roquet**: Fault simulation, reliability, and security of Vision Transformers
-  - **Period**: 2022–2023
+- **Maxwell Pirtle (2024–2026)**: Time predictability and Worst-Case Execution Time analysis on NVIDIA GPUs
+- **Mathys Minsac (2025)**: Fault simulation and mitigation on Processing Using DRAM architectures
+- **El Mehdi Bel Haddad (2024)**: Reliability assessment of UPMEM Processing Near Memory accelerators
+- **Lucas Roquet (2022–2023)**: Fault simulation, reliability, and security of Vision Transformers
 
 ### Undergraduate students
-- **Senakpon V Jivana F Gnansounou**: Reliability of Compressed DNNs for Microcontrollers
-  - **Period**: 2026
-- **Remi Loison**: Fault simulation on RISC-V processors
-  - **Period**: 2025
-- **Raphael Dennis**: Microarchitectural fault simulation for a commercial RISC-V processor
-  - **Period**: 2024
-- **Leah**: Fault simulation on CUDA-based applications
-  - **Period**: 2024
-- **Melanie Romano**: Reliability assessment of applications running on the GreenWaves GAP9 RISC-V processor
-  - **Period**: 2023
-- **Geronimo Veit Acosta**: Fault tolerance using reduced-precision duplication with comparison
-  - **Period**: 2021
+- **Senakpon V Jivana F Gnansounou (2026)**: Reliability of Compressed DNNs for Microcontrollers
+- **Remi Loison (2025)**: Fault simulation on RISC-V processors
+- **Raphael Dennis (2024)**: Microarchitectural fault simulation for a commercial RISC-V processor
+- **Leah (2024)**: Fault simulation on CUDA-based applications
+- **Melanie Romano (2023)**: Reliability assessment of applications running on the GreenWaves GAP9 RISC-V processor
+- **Geronimo Veit Acosta (2021)**: Fault tolerance using reduced-precision duplication with comparison
 
 ### Do you want to join?
 
