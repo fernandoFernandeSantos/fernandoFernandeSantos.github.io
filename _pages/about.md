@@ -3,15 +3,15 @@ layout: about
 title: About
 permalink: /
 #subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
-subtitle: Researcher at the TARAN Group, INRIA Rennes.
+subtitle: Researcher at the TARAN Team, IRISA/Inria Rennes.
+toc:
+  sidebar: left
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>Campus de Beaulieu 263 Av. Général Leclerc</p>
-    <p>Rennes, France</p>
+  address: false
 
 news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -26,15 +26,146 @@ social: false  # includes social icons at the bottom of the page
 
 [//]: # ()
 [//]: # (Link to your social media connections, too. This theme is set up to use [Font Awesome icons]&#40;http://fortawesome.github.io/Font-Awesome/&#41; and [Academicons]&#40;https://jpswalsh.github.io/academicons/&#41;, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.)
-I specialize in researching the reliability of parallel architectures, efficient hardening techniques, 
-and mitigating radiation-induced effects. I started my academic journey with a Bachelor's in Computer Science 
-from the Western Paraná State University. I then pursued a Master's and Ph.D. from the Federal University of 
-Rio Grande do Sul in Brazil. After completing my Ph.D., I moved to Rennes, France, to work as a postdoctoral researcher
-in the MSCA-BIENVENÜE Postdoctoral Program in the INRIA TARAN team. Throughout my academic career, 
-I have focused on understanding the impact of radiation on devices used in large-scale HPC centers 
-and safety-critical applications.
-
-Currently, I'm a permanent researcher at INRIA Rennes in the
+I specialize in improving the reliability of parallel architectures through efficient hardening techniques and the mitigation of transient and permanent faults, particularly in devices used in large-scale HPC systems and safety-critical applications.
+I earned a bachelor’s degree in Computer Science from Western Paraná State University, followed by master’s and PhD degrees from the Federal University of Rio Grande do Sul, Brazil.
+After completing my PhD, I joined Inria’s TARAN team in Rennes, France, as a postdoctoral researcher in the MSCA-BIENVENÜE program.
+Currently, I'm a permanent researcher at Inria Rennes in the
 [Taran Team](https://team.inria.fr/taran/). 
-My main topics of research are fault tolerance and reliability aspects of RISC-V and AI accelerators.
+My main topics of research are fault tolerance and reliability aspects of RISC-V, processing in memory, and AI accelerators.
 
+## Publications
+
+For a complete and up-to-date list of my publications, see my
+[Google Scholar profile](https://scholar.google.com/citations?user={{ site.scholar_userid }})
+or my [HAL CV](https://cv.hal.science/ffernand).
+
+## Supervision
+### PhD students
+- **Lucas Roquet**: Dependability of large machine-learning models on GPUs
+  - **Period**: 2024–present
+- **Mario Wagner**: Reliability of emerging machine-learning accelerators
+  - **Period**: 2025–present
+- Ioannis Zacharioudakis: Reliability and Protection Strategies for Neuromorphic Accelerators
+  - **Period**: 2026–present
+
+### Master's students
+- **Maxwell Pirtle**: Time predictability and Worst-Case Execution Time analysis on NVIDIA GPUs
+  - **Period**: 2024–2026
+- **Mathys Minsac**: Fault simulation and mitigation on Processing Using DRAM architectures
+  - **Period**: 2025
+- **Mehdi**: Reliability assessment of UPMEM Processing Near Memory accelerators
+  - **Period**: 2024
+- **Lucas Roquet**: Fault simulation, reliability, and security of Vision Transformers
+  - **Period**: 2022–2023
+
+### Undergraduate students
+- **Senakpon V Jivana F Gnansounou**: Reliability of Compressed DNNs for Microcontrollers
+  - **Period**: 2026
+- **Remi Loison**: Fault simulation on RISC-V processors
+  - **Period**: 2025
+- **Raphael Dennis**: Microarchitectural fault simulation for a commercial RISC-V processor
+  - **Period**: 2024
+- **Leah**: Fault simulation on CUDA-based applications
+  - **Period**: 2024
+- **Melanie Romano**: Reliability assessment of applications running on the GreenWaves GAP9 RISC-V processor
+  - **Period**: 2023
+- **Geronimo Veit Acosta**: Fault tolerance using reduced-precision duplication with comparison
+  - **Period**: 2021
+
+### Do you want to join?
+
+I am open to supervising new students who are **motivated**, **eager to learn**, and
+**interested in computer architecture**. If you fit this description, please feel free to contact me via email.
+The topics I am willing to explore include, but are not limited to, the following:
+- Reliability of parallel architectures: permanent, transient, and intermittent faults
+- Radiation-induced effects on computers: soft error rates, accumulated dose, etc.
+- Real-time applications: real-time GPUs, real-time constraints
+- Processing in memory: reliability and optimization
+
+## Projects
+- **Reliable AI for the Next Generation of Safety- and Mission-Critical Embedded Systems (RAISE)**
+  - **My role**: Principal investigator
+  - [Project website](https://project.inria.fr/raise/)
+
+- **Transformers’ Reliability for Safety-Critical Applications on Graphic Processing Units (TCHE)**
+  - **My role**: Principal investigator
+  - [Project website](https://team.inria.fr/tche/)
+
+
+- **ARCHitectures based on unconventional accelerators for dependable/energY efficienT AI Systems (ARCHYTAS)**
+  - **My role**: Participating in the project
+  - [Project website](https://defence-industry-space.ec.europa.eu/document/download/9ea71b6f-afea-4cd9-bc2d-210d83e18220_en?filename=EDF-2023-RA-DIGIT-HAAI%20ARCHYTAS.pdf)
+
+- **REliable hardware for TRUSTworthy artificial INtelliGence (RE-TRUSTING)**
+  - **My role**: Participating in the project
+  - [Project website](https://inl.cnrs.fr/projects/re-trusting/)
+
+- **FAult-aware timing behaviour for safety-critical multicore SYstems (FASY)**
+  - **My role**: Participating in the project
+  - [Project website](https://project.inria.fr/fasy/)
+
+## Teaching
+
+### 2025
+
+- Introduction to C language and Unix (University of Rennes)
+- TinyML Accelerators in conjunction with Olivier S., Angeliki K., Marcello T.,
+  and Romain F.
+  - The materials of this class can be
+    found at: [TinyML GitLab](https://gitlab.inria.fr/ffernand/tinyml-lectures)
+- Frugal AI Master Course (University of Rennes) in conjunction with Angeliki K. and Marcello T.
+  - The materials of this course can be found at: [Frugal AI GitLab](https://gitlab.inria.fr/ffernand/frugalai)
+
+### 2024
+
+- Introduction to C language and Unix (University of Rennes)
+- TinyML Accelerators in conjunction with Olivier S., Angeliki K., Silviu F., Marcello T.,
+  and El-mehdi L.
+  - The materials of this class can be
+    found at: [TinyML GitLab](https://gitlab.inria.fr/sfilip/tinyml2023_lectures)
+
+### 2020–2021
+
+**Introduction to programming**: C/Python for students in STEM courses at the Federal University of Rio Grande do Sul, Brazil.
+
+## Awards
+
+### 2026
+
+- [DSN'26 Distinguished Reviewer Award]({{ '/assets/pdf/distinguished_reviewers-santos.pdf' | relative_url }})
+
+### 2023
+
+- I am the semi-finals winner of the
+  [McCluskey Doctoral Thesis Award](https://cas.polito.it/ETS23/proceedings/informal/S8C-1.pdf) for my thesis titled
+  _Understanding and Improving GPUs’ Reliability Combining Beam Experiments with Fault Simulation_ at the IEEE European Test Symposium 2023.
+
+- I won the McCluskey Doctoral Thesis Award at the 2023 IEEE International Test Conference (ITC).
+
+### 2022
+
+- Best 2021 Thesis on Computer Science of the whole Brazil by
+  [Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) Award](https://www.gov.br/capes/pt-br/assuntos/premios/premio-capes-de-tese/teses-premiadas/teses-premiadas-em-2022).
+  CAPES is the Brazilian government agency for research funding.
+
+### 2021
+
+- [Paul Phelps Continuing Education Grant](https://twitter.com/ieeensrec/status/1418203223316475904)
+  from the IEEE Nuclear
+  and Plasma Sciences Society community, in the
+  [2021 IEEE NSREC](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9735186).
+
+- My thesis was evaluated _Cum Laude_ by a board of reviewers composed of Dr. Timothy Tsai (NVIDIA),
+  Dr. Dimitris Gizopoulos (National and Kapodistrian University of Athens), and Dr. Evgenia Smirni
+  (College of William & Mary). The text of the thesis is available (English only) at this [link](https://lume.ufrgs.br/bitstream/handle/10183/234971/001136966.pdf).
+
+### 2018
+
+- Best paper runner-up: In the 2018 IEEE/IFIP DSN, the paper [Code-Dependent and Architecture-Dependent Reliability Behaviors](https://ieeexplore.ieee.org/abstract/document/8416467)
+  co-authored by me was the runner-up for the best paper award.
+- Best of SELSE: In the 2018 edition of SELSE, the paper [Evaluation and Mitigation of Soft-Errors in Neural Network-Based Object Detection in Three GPU Architectures](https://ieeexplore.ieee.org/abstract/document/8023727)
+  co-authored by me won the best paper award.
+
+### 2014
+
+- In my Bachelor's in Computer Science, I graduated with honors. The Brazilian Computer Society also recognized me as the outstanding student of the year at UNIOESTE.

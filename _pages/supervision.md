@@ -3,7 +3,7 @@ layout: page
 permalink: /supervision/
 title: Supervision
 description: Students supervision and new positions
-nav: true
+nav: false
 nav_order: 3
 ---
 
