@@ -43,16 +43,17 @@ or my [HAL CV](https://cv.hal.science/ffernand).
 ### PhD students
 - **Lucas Roquet (2024–present)**: Dependability of large machine-learning models on GPUs
 - **Mario Wagner (2025–present)**: Reliability of emerging machine-learning accelerators
-- **Ioannis Zacharioudakis (2026–present)**: Reliability and Protection Strategies for Neuromorphic Accelerators
+- **Ioannis Zacharioudakis (2026–present)**: Reliability and protection strategies for neuromorphic accelerators
 
 ### Master's students
+- **Maxime Zingraff (2025–2026)**: Mitigating aging effects on Processing Using DRAM architectures  
 - **Maxwell Pirtle (2024–2026)**: Time predictability and Worst-Case Execution Time analysis on NVIDIA GPUs
 - **Mathys Minsac (2025)**: Fault simulation and mitigation on Processing Using DRAM architectures
 - **El Mehdi Bel Haddad (2024)**: Reliability assessment of UPMEM Processing Near Memory accelerators
 - **Lucas Roquet (2022–2023)**: Fault simulation, reliability, and security of Vision Transformers
 
 ### Undergraduate students
-- **Senakpon V Jivana F Gnansounou (2026)**: Reliability of Compressed DNNs for Microcontrollers
+- **Senakpon V Jivana F Gnansounou (2026)**: Reliability of compressed DNNs for microcontrollers
 - **Remi Loison (2025)**: Fault simulation on RISC-V processors
 - **Raphael Dennis (2024)**: Microarchitectural fault simulation for a commercial RISC-V processor
 - **Leah (2024)**: Fault simulation on CUDA-based applications
@@ -65,7 +66,7 @@ I am open to supervising new students who are **motivated**, **eager to learn**,
 **interested in computer architecture**. If you fit this description, please feel free to contact me via email.
 The topics I am willing to explore include, but are not limited to, the following:
 - Reliability of parallel architectures: permanent, transient, and intermittent faults
-- Radiation-induced effects on computers: soft error rates, accumulated dose, etc.
+- Radiation-induced effects on computers: soft error rates, accumulated dose, in-orbit computing, etc.
 - Real-time applications: real-time GPUs, real-time constraints
 - Processing in memory: reliability and optimization
 
