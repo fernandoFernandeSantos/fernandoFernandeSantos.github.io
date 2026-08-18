@@ -26,7 +26,7 @@ social: false  # includes social icons at the bottom of the page
 
 [//]: # ()
 [//]: # (Link to your social media connections, too. This theme is set up to use [Font Awesome icons]&#40;http://fortawesome.github.io/Font-Awesome/&#41; and [Academicons]&#40;https://jpswalsh.github.io/academicons/&#41;, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.)
-I'm a permanent researcher at [Inria Rennes](https://www.inria.fr/fr/centre-inria-universite-rennes) in the
+I'm a tenured researcher at [Inria Rennes](https://www.inria.fr/fr/centre-inria-universite-rennes) in the
 [Taran Team](https://team.inria.fr/taran/).
 My main topics of research are fault tolerance and reliability aspects of RISC-V, GPUs, processing in memory, and AI accelerators.
 I earned a bachelor’s degree in Computer Science from Western Paraná State University, followed by master’s and PhD degrees from the Federal University of Rio Grande do Sul, Brazil.
