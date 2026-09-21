@@ -87,7 +87,7 @@ The topics I am willing to explore include, but are not limited to, the followin
 
 ## Teaching
 
-### 2025
+### 2025 - 2026
 
 - Introduction to C language and Unix (University of Rennes)
 - TinyML Accelerators in conjunction with Olivier S., Angeliki K., Marcello T.,
